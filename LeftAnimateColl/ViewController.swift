@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         
         let centerV = CustomCollect.init(["1","2","3","4","5","6","7","8"],["abc","abc","abc","abc","abc","abc","abc","abc"],
                                         CGRect.init(x: 0, y: 100, width: 200, height: 400),
-                                        CGSize.init(width:200 / 2 - COMMON_MARGIN / 2 , height: 200 / 2 - COMMO	N_MARGIN))
+                                        CGSize.init(width:200 / 2 - COMMON_MARGIN / 2 , height: 200 / 2 - COMMON_MARGIN))
         centerV.backgroundColor = UIColor.gray
         view.addSubview(centerV)
     }
